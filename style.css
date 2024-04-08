@@ -7,3 +7,70 @@
 :root {
   font-size: 62.5%;
 }
+
+body {
+  background: linear-gradient(287.56deg, #cf92f8 0%, #8d4cf7 100%); 
+  
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  background: white;
+  box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+  border-radius: .6rem;
+  padding: 5rem 5rem 5rem;
+
+  width: min(42.8rem, 90%);
+  margin: auto;
+
+  text-align: center; 
+}
+
+
+/* screen 1 */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  color: #34355B;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #34355B;
+}
+
+/*screen 2*/
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  color: #34355B;
+  margin-bottom: 1.7rem;
+}
+
+button {
+  background: #FF9500;
+  color: white;
+  font-weight: bold;
+  border-radius: .4rem;
+  padding: 1.6rem 1.6rem;
+  cursor: pointer;
+
+  transition: background .3s;
+
+  margin-top: 5.7rem;
+  border: none;
+  
+}
+
+button:hover {
+  background-color: #b86c02;
+}
